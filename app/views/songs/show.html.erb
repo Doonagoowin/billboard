@@ -1,0 +1,7 @@
+<h1><%= @song.name %></h1>
+
+<hr />
+<p>What do you want to do?</p>
+
+<%= link_to 'Edit Song', edit_list_path(@song) %>
+<%= link_to 'Delete Song', @song, method: :delete %>

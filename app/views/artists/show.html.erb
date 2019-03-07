@@ -1,0 +1,7 @@
+<h1><%= @artist.name %></h1>
+
+<hr />
+<p>What do you want to do?</p>
+
+<%= link_to 'Edit Artist', edit_list_path(@artist) %>
+<%= link_to 'Delete Artist', @artist, method: :delete %>
